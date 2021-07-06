@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #303030;
+  color: #fff;
+}
+
+.main-container {
+  margin-top: 40px;
+}
+
+/* Drop Zone */
+.drop-zone {
+  border: dotted 3px lightgray;
+  opacity: 0.5;
+  color: rgb(209, 209, 209);
+  text-align: center;
+}
+
+.file-over {
+  border: dotted 3px #7131df;
+}
+
+.table {
+  margin-top: 30px;
+}
+
+.text-purple {
+  color: #7131df;
+}

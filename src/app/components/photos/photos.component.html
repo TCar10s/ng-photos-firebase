@@ -1,0 +1,10 @@
+<div class="grid">
+
+  <div class="card animate__animated animate__fadeIn" *ngFor="let item of items | async">
+    <img [src]="item.url" class="card-img-top" [alt]="item.name" />
+    <div class="card-body">
+      <h6 class="card-title text-dark">{{ item.name }}</h6>
+    </div>
+  </div>
+
+</div>

@@ -1,27 +1,47 @@
-# PhotosFirebase
+# FirebaseStorageApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+## Overview
 
-## Development server
+### Screenshot uploading files
+![screenshot](https://raw.githubusercontent.com/TCar10s/ng-photos-firebase/main/src/assets/img/screenshot-desktop.jpeg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Screenshot uploaded files 
+![screenshot](https://raw.githubusercontent.com/TCar10s/ng-photos-firebase/main/src/assets/img/screenshot-desktop-photos.jpeg)
 
-## Code scaffolding
+## Notas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Antes de correr la app debes crear un proyecto en firebase y proporcionar tus credenciales
+en el archivo environment:
 
-## Build
+```
+export const environment = {
+    production: false,
+    firebase: {
+        apiKey: '',
+        authDomain: '',
+        projectId: '',
+        storageBucket: '',
+        messagingSenderId: '',
+        appId: '',
+        measurementId: '',
+    },
+};
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Recuerden reconstruir los módulos de Node.
 
-## Running unit tests
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecute `ng serve` para un servidor de desarrollo. Vaya a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
-## Running end-to-end tests
+```
+ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Contact
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Website [www.tutoscarlos.xyz](https://www.tutoscarlos.xyz)
+- GitHub [@TCar10s](https://https://github.com/TCar10s)
+- Twitter [@Tutos_Carlos11](https://twitter.com/Tutos_Carlos11)
